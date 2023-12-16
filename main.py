@@ -1,5 +1,7 @@
 #Basic Calculator App
 
+#Operations
+
 def calculation(num1, num2, oper):
     """Use operator to determine outcome of two numbers together"""
     if oper == "+":
@@ -12,6 +14,7 @@ def calculation(num1, num2, oper):
         return num1 / num2
     else:
         print('Error')
+
 
 #Intro
 print('Welcome to Python Calculator!')
